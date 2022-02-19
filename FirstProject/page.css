@@ -1,0 +1,94 @@
+   body{
+       padding: 0;
+   }
+
+.contianer{
+    background: #eee;
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+    margin: 50px 8px 50px 8px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.title{
+    font-size: 30px;
+}
+.ptext1{
+    font-size: 25px;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+}
+figure{
+    background-color: rgb(253, 247, 247);
+    width: 80%; 
+}
+#img-size{
+   width: 100%;
+}
+figcaption{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+.titletypecat{
+    display: flex;
+    align-self: center;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div-type-cate{
+    padding: 15px;
+    display: flex;
+    align-self: center;
+    
+}
+.cat1{
+   display: flex;
+   font-size: 16px;
+   padding: 10px;  
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media (max-width: 600px){
+    .cat1{
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        padding: 10px;  
+     }  
+}
+#catphoto{
+    max-width: 150px;
+    border-radius: 50%;
+}
+#catphoto:hover{
+    max-width: 300px;
+}
+.pcat{
+    max-width: 30em;
+}
+.text2{
+    align-self: center;
+    font-size: 20px;
+    font-style: italic;
+    color:rgb(100, 100, 233);
+    padding: 10px;
+}
+.text3{
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
